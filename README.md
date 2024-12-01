@@ -160,3 +160,10 @@ Menghapus Data: Fungsi `hapus()` dipanggil untuk menghapus mahasiswa "bagus" dar
 Menampilkan Data Setelah Modifikasi: Fungsi `tampilkan()` dipanggil lagi untuk menunjukkan daftar mahasiswa setelah pengubahan dan penghapusan data.
 
 
+### Tampilan Program Saat Dijalankan
+
+### inilah tambah,tampilan,ubah,hapus:
+![hasil](https://github.com/user-attachments/assets/42a87337-3eb6-4805-b98e-98450a162fef)
+
+
+
