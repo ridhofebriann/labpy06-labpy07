@@ -162,8 +162,106 @@ Menampilkan Data Setelah Modifikasi: Fungsi `tampilkan()` dipanggil lagi untuk m
 
 ### Tampilan Program Saat Dijalankan
 
-### inilah tambah,tampilan,ubah,hapus:
-![hasil](https://github.com/user-attachments/assets/42a87337-3eb6-4805-b98e-98450a162fef)
+###  1. Setelah menambahkan mahasiswa:
+![tambah](https://github.com/user-attachments/assets/63ceff99-f133-4a2c-b154-021771e7ba18)
+
+
+###  2. Setelah menampilkan data:
+![tampilan](https://github.com/user-attachments/assets/c1f54b47-0127-46a0-846d-60dd78ea4298)
+
+
+###  3. Setelah mengubah nilai mahasiswa:
+![ubah](https://github.com/user-attachments/assets/f91dab11-5d7d-4012-9b31-0dbfc43d08e9)
+
+
+###  4. Setelah menampilkan data lagi:
+![tampilan](https://github.com/user-attachments/assets/da1393fc-f4fc-4ac1-be67-55ce8db3e61f)
+
+
+###  5. Setelah menghapus mahasiswa:
+![hapus](https://github.com/user-attachments/assets/07b80b70-cc55-40ca-b867-924dfa81c2f3)
+
+
+###  6. Setelah menampilkan data terakhir:
+![tampilan](https://github.com/user-attachments/assets/700ddac0-7a29-4b65-8aed-68ee4ccb7b5b)
+
+
+
+
+
+
+
+
+## inilah flowchart saya dan penjelasan nya:
+![flowchart](https://github.com/user-attachments/assets/8f5ca538-0c24-4a8c-89a7-76cdee0d05dd)
+
+### penjelasan:
+1. Mulai
+
+2. Inisialisasi `daftar_mahasiswa` sebagai list kosong.
+
+3. Fungsi `tambah(nama, nilai)`
+
+-Input: `nama, nilai`
+
+-Buat dictionary `mahasiswa` dengan `nama` dan `nilai`.
+
+-Tambahkan `mahasiswa` ke `daftar_mahasiswa`.
+
+-Tampilkan pesan: "Data mahasiswa {nama} telah ditambahkan."
+
+4. Fungsi `tampilkan()`
+
+-Jika `daftar_mahasiswa` kosong:
+
+  Tampilkan pesan: "Tidak ada data mahasiswa."
+
+-Jika tidak kosong:Tampilkan "Daftar Mahasiswa:"
+
+  Untuk setiap `mahasiswa` di `daftar_mahasiswa`, tampilkan `nama` dan `nilai`.
+
+5. Fungsi `hapus(nama)`
+
+-Hapus `mahasiswa` dari `daftar_mahasiswa` yang `nama`-nya sama dengan input `nama`.
+
+-Tampilkan pesan: "Data mahasiswa dengan nama {nama} telah dihapus."
+
+6. Fungsi `ubah(nama, nilai_baru)`
+
+-Untuk setiap `mahasiswa` di `daftar_mahasiswa`:
+
+ Jika `mahasiswa['nama']` sama dengan `nama`:
+
+   Ubah `mahasiswa['nilai']` menjadi `nilai_baru`.
+
+Tampilkan pesan: "Data mahasiswa {nama} telah diubah menjadi nilai {nilai_baru}."
+
+Keluar dari fungsi.
+
+Jika tidak ditemukan:
+
+Tampilkan pesan: "Mahasiswa dengan nama {nama} tidak ditemukan."
+
+7. Penggunaan Fungsi
+
+-Panggil `tambah("ridho", 85)`
+
+Panggil `tambah("bagus", 90)`
+
+Panggil `tambah("kia", 78)`
+
+Panggil `tampilkan()`
+
+Panggil `ubah("ridho", 88)`
+
+Panggil `tampilkan()`
+
+Panggil `hapus("bagus")`
+
+Panggil `tampilkan()`
+
+8. Selesai
+
 
 
 
