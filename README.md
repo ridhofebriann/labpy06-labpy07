@@ -246,19 +246,19 @@ Tampilkan pesan: "Mahasiswa dengan nama {nama} tidak ditemukan."
 
 -Panggil `tambah("ridho", 85)`
 
-Panggil `tambah("bagus", 90)`
+-Panggil `tambah("bagus", 90)`
 
-Panggil `tambah("kia", 78)`
+-Panggil `tambah("kia", 78)`
 
-Panggil `tampilkan()`
+-Panggil `tampilkan()`
 
-Panggil `ubah("ridho", 88)`
+-Panggil `ubah("ridho", 88)`
 
-Panggil `tampilkan()`
+-Panggil `tampilkan()`
 
-Panggil `hapus("bagus")`
+-Panggil `hapus("bagus")`
 
-Panggil `tampilkan()`
+-Panggil `tampilkan()`
 
 8. Selesai
 
